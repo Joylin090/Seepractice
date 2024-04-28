@@ -8,6 +8,9 @@ public class vehicle_203 {
 		this.brand=brand;
 		this.speed=0;
 	}
+	void decrease_speed(int decr) {
+		this.speed=speed-decr;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
